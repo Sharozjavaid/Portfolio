@@ -104,7 +104,7 @@
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #89715b;
-  --bs-link-hover-color: #6e5a49; 
+  --bs-link-hover-color: #6e5a49;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -4514,11 +4514,11 @@ textarea.form-control-lg {
   --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display:flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-direction: center;
+      -ms-flex-direction: center;
+          flex-direction: center;
   padding-left: 0;
   margin-bottom: 0;
   
@@ -17113,17 +17113,16 @@ img {
   transition: all 0.3s ease 0s;
   padding: 30px;
   border: 1px solid #313131;
-  min-height: 330px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
+  -webkit-box-direction:normal;
       -ms-flex-direction: row;
           flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center;
+          justify-content:space-between;
   position: relative;
   z-index: 2;
 }
@@ -18900,7 +18899,8 @@ img {
 }
 
 .single-faq {
-  padding: 30px;
+  position: relative;;
+  z-index: 3;
 }
 .single-faq .title {
   font-size: 36px;
@@ -18935,6 +18935,7 @@ img {
 /*  06. Footer CSS
 /*----------------------------------------*/
 .footer-info-box {
+  padding-top: 80px;
   flex-shrink: 0;
   bottom: 0;
   background-color: black;
