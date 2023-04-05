@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 
 <head>
     <meta charset="UTF-8">
@@ -10,14 +10,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="./font.css">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./stylesheet.css">
-    <link rel="stylesheet" href="./ionicons.min.css">
-    <link rel="stylesheet" href="./animate.css">
-    <link rel="stylesheet" href="./animate.css">
+    <link rel="stylesheet" href="/Users/sharozjavaid/Portfolio BS/font.css">
+    <link rel="stylesheet" href="/Users/sharozjavaid/Portfolio BS/style.css">
+    <link rel="stylesheet" href="/Users/sharozjavaid/Portfolio BS/stylesheet.css">
+    <link rel="stylesheet" href="/Users/sharozjavaid/Portfolio BS//Users/sharozjavaid/Portfolio BS/I/ionicons.min.css">
+    <link rel="stylesheet" href="/Applications/Maxon Cinema 4D R25/resource/modules/licensing.module/html/my/assets/css/libs/fontawesome/font/fontawesome-all.css">    <link rel="stylesheet" href="/Users/sharozjavaid/Portfolio BS/I/animate.css">
     <!-- Custom JS Swiper -->
-    <link rel="stylesheet" href="./icofont.min.css">
+    <link rel="stylesheet" href="/Users/sharozjavaid/Portfolio BS/I/icofont.min.css">
 
 
 
@@ -26,37 +25,33 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand text-white" href="./Portfolio.html">Sharoz
-                Javaid</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav padding-right">
-                    <li class="nav-item active">
-                        <a class="nav-link text-white" href="https://www.sharozjavaid.com/">Work</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white"
-                            href="https://drive.google.com/file/d/1NGVLA1o2fTtLwR7EF6_-sCREivfNtwD9/view?usp=share_link">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Services</a>
-                    </li>
-                </ul>
-            </div>
+   <!--Navbar-->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-flex d-sm-flex flex-row sticky-top">
+    <a class="navbar-brand" href="./index.html">Sharoz Javaid.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"  onclick="openMenu()">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
 
-
-
-    </nav>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#About Me">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://drive.google.com/file/d/1NGVLA1o2fTtLwR7EF6_-sCREivfNtwD9/view?usp=share_link">Resume</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Latest Projects">Latest Project</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
     <div class="main wrapper">
         <div class="project-section d-flex align-items-center">
             <div class="container-fluid bg-dark">
-                <div class="about-banner-content" div style="padding-top:20px">
+                <div class="about-banner-content" div style="padding-top:35px">
                     <h1 class="banner-title"><span>Hello!</span> I am Sharoz, <br> Product Manager based in San
                         Diego.<br>
                     </h1>
@@ -90,7 +85,7 @@
         <div class="project-section mt-n4">
             <div class="container-fluid bg-dark">
                 <!-- Page Banner Title Start -->
-                <div class="page-banner-title">
+                <div id="Latest Projects" class="page-banner-title">
                     <h2 class="title"> Latest Projects</h2>
                 </div>
                 <!-- Page Banner Title End -->
@@ -131,7 +126,7 @@
                         <div class="single-project wow zoomIn animated" data-wow-delay="0.3s" data-wow-duration="0.5s"
                             style="visibility: visible; animation-duration: 0.5s; animation-delay: 0.3s; animation-name: zoomIn;">
                             <div class="project-images">
-                                <a href="./DDISCS.html"><img
+                                <a href="/Users/sharozjavaid/Portfolio BS/I/DDISCS.html"><img
                                         src="./onlineddi-logo.png" class="img-thumbnail"
                                         alt="DDI"></a>
                             </div>
@@ -211,15 +206,15 @@
             <div class="container-fluid bg-dark">
                 <!-- Page Banner Title Start -->
                 <div class="page-banner-title">
-                    <h2 class="title section-padding"> About me</h2>
+                    <h2 class="title section-padding"> About Me</h2>
                 </div>
 
-                <div class="row">
+                <div id="About Me" class="row">
                     <div class="col-lg-4">
                         <img src="./IMG_3584 2.JPG" class="img-fluid img-thumbnail"
                             alt="Profile">
                     </div>
-                    <div class="col-lg-8 pt-2 text-white">
+                    <div class="col-lg-8 text-white">
                         <h2>UX Researcher turns Product Manager</h2>
                         <div class="row">
                             <div class="col-lg-6 mb-3 mt-md-4">
@@ -245,7 +240,7 @@
                             challenges and motivations. I have conducted research, designed prototypes, and iterated
                             with empathy and care, ensuring that every product and interface benefitted users and
                             aligned with business goals.
-                            <br>
+                            <br><br>
                             Some of the frameworks that shape my approach include Design Thinking, Lean UX and Agile, as
                             well as thought leaders like Don Norman, Alan Cooper and Richard Banfield. Their concepts of
                             mapping affordances, designing feedback loops and building personas have influenced how I
@@ -270,7 +265,7 @@
 
                 <!-- Section Title Start -->
                 <div class="section-title">
-                    <h2 class="title">why choose me</h2>
+                    <h2 class="title">What I bring</h2>
                 </div>
                 <!-- Section Title End -->
 
@@ -351,14 +346,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-11 section-padding" style="align-items: center;">
-                        <img src="./Design Process@2x.png"
-                            class="img-fluid" alt="Profile">
-                    </div>
+        
                     
 
                     <!-- Why Choose Wrapper End -->
 
+                </div>
+                <div class="row section-padding" style="align-items: center;">
+                    <img src="./Design Process@2x.png"
+                        class="img-fluid" alt="Profile">
                 </div>
             </div>
         </div>
@@ -442,6 +438,16 @@
         crossorigin="anonymous"></script>
 
     <script src="assets/js/main.js"></script>
+    
+    <script>
+        function openMenu() {
+          $('.navbar-collapse').collapse('toggle'); 
+        } 
+        
+        $('.nav-link').click(function() {
+          $('.navbar-collapse').collapse('hide'); 
+        }); 
+      </script> 
 
 
 
