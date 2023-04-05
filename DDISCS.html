@@ -399,11 +399,37 @@
 
 
 
+    <script>
+        function openMenu() {
+          $('.navbar-collapse').collapse('toggle'); 
+        } 
+        
+        $('.nav-link').click(function() {
+          $('.navbar-collapse').collapse('hide'); 
+        }); 
+      </script> 
 
 
 
+        <script>
+            let buttonShowing = false;
 
+            window.onscroll = function () { scrollFunction() };
 
+            function scrollFunction() {
+                if (!buttonShowing && (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300)) {
+                    document.getElementById('scrollToTopBtn').style.display = 'block';
+                    buttonShowing = true;
+                } else {
+                    document.getElementById('scrollToTopBtn').style.display = 'none';
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            } 
+        </script>
 
 
 
